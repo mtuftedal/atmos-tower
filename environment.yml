@@ -1,4 +1,4 @@
-name: atmos-tower
+name: atmos-tower 
 channels:
   - conda-forge
   - defaults
@@ -8,13 +8,20 @@ dependencies:
   - arm_pyart
   - act-atmos
   - matplotlib
+  - pyserial
+  - hvplot
   - jupyterlab
+  - holoviews
+  - geoviews
   - cartopy
   - numpy
   - dask
+  - dask-labextension
   - distributed
   - xarray
   - pandas
+  - datashader
+  - geopandas
   - fiona
   - pip
   - pip:
