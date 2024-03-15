@@ -1,28 +1,30 @@
-name: atmos-tower 
+name: atmos-tower
 channels:
   - conda-forge
   - defaults
   - pyviz
 dependencies:
-  - python=3.9
-  - arm_pyart
   - act-atmos
-  - matplotlib
-  - pyserial
-  - hvplot
-  - jupyterlab
-  - holoviews
-  - geoviews
+  - aiohttp
+  - arm_pyart
   - cartopy
-  - numpy
   - dask
-  - dask-labextension
   - distributed
-  - xarray
-  - pandas
-  - datashader
-  - geopandas
   - fiona
+  - h5netcdf
+  - jupyterlab
+  - lazy_loader
+  - matplotlib
+  - numpy
+  - pandas
+  - pint
   - pip
+  - python=3.11.4
+  - requests
+  - spyder
+  - xarray
+  - spyder-kernels=2.4.3
+  - conda-forge::windrose
   - pip:
+    - thermofeel
     - -r doc-requirements.txt
